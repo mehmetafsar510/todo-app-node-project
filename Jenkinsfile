@@ -29,7 +29,7 @@
     }
     post {
         always {
-            echo 'Deleting all local images'
+            echo 'Deleting all local imagesss'
             sh 'docker image prune -af'
         }
     }
